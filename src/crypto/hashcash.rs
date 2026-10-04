@@ -270,9 +270,9 @@ mod tests {
 
     #[test]
     fn mint_then_verify() {
-        let hc = HashCash::mint("brian@resolvingarchitecture.io", 12).unwrap();
+        let hc = HashCash::mint("brian@resolvingarchitecture.dev", 12).unwrap();
         assert!(hc.computed_bits() >= 12);
-        assert!(hc.is_valid_for("brian@resolvingarchitecture.io", 12));
+        assert!(hc.is_valid_for("brian@resolvingarchitecture.dev", 12));
         assert!(!hc.is_valid_for("someone.else", 12));
 
         let reparsed = HashCash::parse(hc.token()).unwrap();
