@@ -1,11 +1,11 @@
 [package]
 name = "ra-common"
 version = "0.1.0"
-authors = ["Brian Taylor <brian@resolvingarchitecture.dev>"]
+authors = ["Brian Taylor <brian@resolvingarchitecture.io>"]
 license = "MIT"
 edition = "2021"
 description = "Resolving Architecture - Common - Rust. Core messaging, identity, crypto and content types for the RA / 1M5 ecosystem."
-homepage = "https://resolvingarchitecture.dev"
+homepage = "https://resolvingarchitecture.io"
 documentation = "https://docs.rs/ra-common"
 repository = "https://github.com/resolvingarchitecture/ra-common-rust"
 readme = "README.md"
